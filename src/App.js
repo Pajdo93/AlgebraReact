@@ -1,5 +1,11 @@
+import Input from "./components/input";
+
 function App() {
-  return <div>test</div>;
+  return (
+    <div className="App">
+      <Input />
+    </div>
+  );
 }
 
 export default App;
